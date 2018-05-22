@@ -1,0 +1,731 @@
+Random seed: 123623
+state 1
+2:RPL: rpl_set_preferred_parent fe80::212:7401:1:101 used to be NULL
+5:RPL: rpl_set_preferred_parent fe80::212:7401:1:101 used to be NULL
+11:RPL: rpl_set_preferred_parent fe80::212:7402:2:202 used to be NULL
+c++
+30:RPL: rpl_set_preferred_parent fe80::212:7402:2:202 used to be NULL
+c++
+27:RPL: rpl_set_preferred_parent fe80::212:740b:b:b0b used to be NULL
+31:RPL: rpl_set_preferred_parent fe80::212:741b:1b:1b1b used to be NULL
+27:RPL: rpl_set_preferred_parent fe80::212:7402:2:202 used to be fe80::212:740b:b:b0b
+c++
+31:RPL: rpl_set_preferred_parent fe80::212:7405:5:505 used to be fe80::212:741b:1b:1b1b
+71.160873:Node27:lystmsg 1 
+71.234879:lyrcmsg:'Hello 1 from the client' from Node 27
+76.08402:Node5:lystmsg 1 
+76.110846:lyrcmsg:'Hello 1 from the client' from Node 5
+80.732014:Node11:lystmsg 1 
+81.233684:lyrcmsg:'Hello 1 from the client' from Node 11
+87.771266:Node31:lystmsg 1 
+88.32252:lyrcmsg:'Hello 1 from the client' from Node 31
+105.383962:lyrcmsg:'Hello 1 from the client' from Node 2
+106.63984:Node30:lystmsg 1 
+106.734105:lyrcmsg:'Hello 1 from the client' from Node 30
+121.11636:Node30:lystmsg 2 
+121.367753:lyrcmsg:'Hello 2 from the client' from Node 30
+123.458562:Node11:lystmsg 2 
+123.615572:lyrcmsg:'Hello 2 from the client' from Node 11
+151.5314:Node31:lystmsg 2 
+151.616898:lyrcmsg:'Hello 2 from the client' from Node 31
+151.852556:lyrcmsg:'Hello 2 from the client' from Node 2
+159.503356:Node27:lystmsg 2 
+159.608549:lyrcmsg:'Hello 2 from the client' from Node 27
+169.927784:Node5:lystmsg 2 
+169.952906:lyrcmsg:'Hello 2 from the client' from Node 5
+195.061554:Node5:lystmsg 3 
+195.086962:lyrcmsg:'Hello 3 from the client' from Node 5
+finish first 200 seconds
+208.835124:Node30:lystmsg 3 
+209.508379:lyrcmsg:'Hello 3 from the client' from Node 30
+final result:0:3:1:7:1:0
+final result:0:3:2:7:1:0
+final result:0:5:3:11:1:0
+final result:0:5:4:12:1:0
+215.397874:lyrcmsg:'Hello 3 from the client' from Node 2
+221.984525:Node31:lystmsg 3 
+222.121062:lyrcmsg:'Hello 3 from the client' from Node 31
+232.237746:Node27:lystmsg 3 
+232.735428:lyrcmsg:'Hello 3 from the client' from Node 27
+233.866102:Node11:lystmsg 3 
+233.988717:lyrcmsg:'Hello 3 from the client' from Node 11
+240.955629:lyrcmsg:'Hello 4 from the client' from Node 2
+252.380437:Node11:lystmsg 4 
+252.483885:lyrcmsg:'Hello 4 from the client' from Node 11
+259.475749:Node30:lystmsg 4 
+259.611541:lyrcmsg:'Hello 4 from the client' from Node 30
+final result:0:12:5:33:8:0
+264.925263:Node27:lystmsg 4 
+265.488109:lyrcmsg:'Hello 4 from the client' from Node 27
+266.773574:Node31:lystmsg 4 
+266.868176:lyrcmsg:'Hello 4 from the client' from Node 31
+final result:0:13:6:40:10:0
+final result:0:13:7:41:10:0
+268.45902:Node5:lystmsg 4 
+268.48593:lyrcmsg:'Hello 4 from the client' from Node 5
+315.070449:Node31:lystmsg 5 
+315.241301:lyrcmsg:'Hello 5 from the client' from Node 31
+326.08526:lyrcmsg:'Hello 5 from the client' from Node 2
+330.772624:Node30:lystmsg 5 
+330.860248:lyrcmsg:'Hello 5 from the client' from Node 30
+336.193381:Node5:lystmsg 5 
+336.221755:lyrcmsg:'Hello 5 from the client' from Node 5
+337.948655:Node27:lystmsg 5 
+338.485598:lyrcmsg:'Hello 5 from the client' from Node 27
+348.302312:Node11:lystmsg 5 
+348.361512:lyrcmsg:'Hello 5 from the client' from Node 11
+364.991374:Node30:lystmsg 6 
+365.610828:lyrcmsg:'Hello 6 from the client' from Node 30
+373.576193:Node5:lystmsg 6 
+373.601744:lyrcmsg:'Hello 6 from the client' from Node 5
+374.194636:lyrcmsg:'Hello 6 from the client' from Node 2
+376.917419:Node27:lystmsg 6 
+376.984574:lyrcmsg:'Hello 6 from the client' from Node 27
+final result:0:18:8:68:21:0
+final result:0:18:9:69:21:0
+385.173972:Node31:lystmsg 6 
+385.400561:lyrcmsg:'Hello 6 from the client' from Node 31
+402.591389:Node11:lystmsg 6 
+402.733314:lyrcmsg:'Hello 6 from the client' from Node 11
+425.067104:Node27:lystmsg 7 
+425.236344:lyrcmsg:'Hello 7 from the client' from Node 27
+426.710124:Node30:lystmsg 7 
+426.858007:lyrcmsg:'Hello 7 from the client' from Node 30
+427.389864:lyrcmsg:'Hello 7 from the client' from Node 2
+437.211074:Node31:lystmsg 7 
+437.3693:lyrcmsg:'Hello 7 from the client' from Node 31
+438.771108:Node11:lystmsg 7 
+438.859101:lyrcmsg:'Hello 7 from the client' from Node 11
+final result:0:21:10:88:28:0
+final result:0:21:11:89:28:0
+final result:0:23:12:90:28:0
+final result:0:23:13:91:28:0
+467.967804:Node5:lystmsg 7 
+467.996184:lyrcmsg:'Hello 7 from the client' from Node 5
+488.880881:Node5:lystmsg 8 
+488.905914:lyrcmsg:'Hello 8 from the client' from Node 5
+511.317951:Node11:lystmsg 8 
+511.485218:lyrcmsg:'Hello 8 from the client' from Node 11
+514.382013:Node30:lystmsg 8 
+514.50015:Node31:lystmsg 8 
+514.616977:lyrcmsg:'Hello 8 from the client' from Node 31
+515.485763:lyrcmsg:'Hello 8 from the client' from Node 30
+final result:0:31:14:105:33:0
+final result:0:31:15:106:33:0
+520.300231:Node27:lystmsg 8 
+520.35825:lyrcmsg:'Hello 8 from the client' from Node 27
+533.860275:lyrcmsg:'Hello 8 from the client' from Node 2
+544.253342:Node27:lystmsg 9 
+544.735743:lyrcmsg:'Hello 9 from the client' from Node 27
+final result:0:33:16:116:36:0
+final result:0:33:17:116:36:0
+550.350763:Node30:lystmsg 9 
+551.180344:lyrcmsg:'Hello 9 from the client' from Node 30
+final result:0:35:18:125:37:0
+final result:0:35:19:126:37:0
+563.232457:Node5:lystmsg 9 
+563.257555:lyrcmsg:'Hello 9 from the client' from Node 5
+578.036687:Node11:lystmsg 9 
+578.108759:lyrcmsg:'Hello 9 from the client' from Node 11
+582.382083:lyrcmsg:'Hello 9 from the client' from Node 2
+591.679838:Node31:lystmsg 9 
+591.742744:lyrcmsg:'Hello 9 from the client' from Node 31
+610.097316:Node27:lystmsg 10 
+610.239093:lyrcmsg:'Hello 10 from the client' from Node 27
+630.187803:Node31:lystmsg 10 
+630.456664:lyrcmsg:'Hello 10 from the client' from Node 31
+634.372777:Node11:lystmsg 10 
+634.483683:lyrcmsg:'Hello 10 from the client' from Node 11
+640.866526:Node30:lystmsg 10 
+641.197488:lyrcmsg:'Hello 10 from the client' from Node 30
+650.72788:lyrcmsg:'Hello 10 from the client' from Node 2
+651.568533:Node5:lystmsg 10 
+651.600202:lyrcmsg:'Hello 10 from the client' from Node 5
+671.164352:Node31:lystmsg 11 
+671.242119:lyrcmsg:'Hello 11 from the client' from Node 31
+673.162298:Node5:lystmsg 11 
+673.187699:lyrcmsg:'Hello 11 from the client' from Node 5
+674.589432:Node27:lystmsg 11 
+674.737406:lyrcmsg:'Hello 11 from the client' from Node 27
+712.255604:Node11:lystmsg 11 
+712.360633:lyrcmsg:'Hello 11 from the client' from Node 11
+716.569949:lyrcmsg:'Hello 11 from the client' from Node 2
+final result:0:42:20:164:52:0
+final result:0:42:21:165:52:0
+719.077478:Node30:lystmsg 11 
+719.233181:lyrcmsg:'Hello 11 from the client' from Node 30
+721.97434:Node11:lystmsg 12 
+722.111125:lyrcmsg:'Hello 12 from the client' from Node 11
+736.261307:Node27:lystmsg 12 
+736.358172:lyrcmsg:'Hello 12 from the client' from Node 27
+748.256047:Node5:lystmsg 12 
+748.281321:lyrcmsg:'Hello 12 from the client' from Node 5
+753.225901:Node30:lystmsg 12 
+753.359335:lyrcmsg:'Hello 12 from the client' from Node 30
+775.390914:Node31:lystmsg 12 
+776.372881:lyrcmsg:'Hello 12 from the client' from Node 31
+777.068516:lyrcmsg:'Hello 12 from the client' from Node 2
+788.849783:Node5:lystmsg 13 
+788.875121:lyrcmsg:'Hello 13 from the client' from Node 5
+791.675384:Node27:lystmsg 13 
+791.733351:lyrcmsg:'Hello 13 from the client' from Node 27
+791.913673:lyrcmsg:'Hello 13 from the client' from Node 2
+final result:0:46:22:191:62:0
+final result:0:46:23:191:62:0
+810.522776:Node30:lystmsg 13 
+810.983577:lyrcmsg:'Hello 13 from the client' from Node 30
+828.554976:Node31:lystmsg 13 
+828.992051:lyrcmsg:'Hello 13 from the client' from Node 31
+836.825902:Node11:lystmsg 13 
+837.358382:lyrcmsg:'Hello 13 from the client' from Node 11
+841.669652:Node11:lystmsg 14 
+842.484164:lyrcmsg:'Hello 14 from the client' from Node 11
+852.279471:Node5:lystmsg 14 
+852.30794:lyrcmsg:'Hello 14 from the client' from Node 5
+880.76069:lyrcmsg:'Hello 14 from the client' from Node 2
+884.526947:Node27:lystmsg 14 
+884.607458:lyrcmsg:'Hello 14 from the client' from Node 27
+886.694665:Node30:lystmsg 14 
+886.859834:lyrcmsg:'Hello 14 from the client' from Node 30
+898.10188:Node31:lystmsg 14 
+898.252571:lyrcmsg:'Hello 14 from the client' from Node 31
+906.820601:Node31:lystmsg 15 
+906.993173:lyrcmsg:'Hello 15 from the client' from Node 31
+914.36287:Node27:lystmsg 15 
+914.86063:lyrcmsg:'Hello 15 from the client' from Node 27
+915.083715:Node11:lystmsg 15 
+915.60927:lyrcmsg:'Hello 15 from the client' from Node 11
+final result:0:59:24:232:74:0
+final result:0:59:25:233:74:0
+938.943547:Node5:lystmsg 15 
+938.968709:lyrcmsg:'Hello 15 from the client' from Node 5
+949.968161:Node30:lystmsg 15 
+950.111733:lyrcmsg:'Hello 15 from the client' from Node 30
+951.106074:lyrcmsg:'Hello 15 from the client' from Node 2
+final result:0:61:26:239:77:0
+final result:0:62:27:240:77:0
+965.823839:Node27:lystmsg 16 
+965.984835:lyrcmsg:'Hello 16 from the client' from Node 27
+final result:0:63:28:244:78:0
+final result:0:63:29:245:78:0
+972.838951:lyrcmsg:'Hello 16 from the client' from Node 2
+974.537283:Node5:lystmsg 16 
+974.56263:lyrcmsg:'Hello 16 from the client' from Node 5
+975.663401:Node30:lystmsg 16 
+976.234332:lyrcmsg:'Hello 16 from the client' from Node 30
+991.992476:Node31:lystmsg 16 
+992.119708:lyrcmsg:'Hello 16 from the client' from Node 31
+1014.053673:Node11:lystmsg 16 
+1014.489617:lyrcmsg:'Hello 16 from the client' from Node 11
+1041.656539:Node31:lystmsg 17 
+1042.122686:lyrcmsg:'Hello 17 from the client' from Node 31
+1047.84934:Node11:lystmsg 17 
+1047.986029:lyrcmsg:'Hello 17 from the client' from Node 11
+1052.132176:Node30:lystmsg 17 
+1052.789819:lyrcmsg:'Hello 17 from the client' from Node 30
+1054.396669:Node5:lystmsg 17 
+1054.425126:lyrcmsg:'Hello 17 from the client' from Node 5
+1057.140286:lyrcmsg:'Hello 17 from the client' from Node 2
+1061.200319:Node27:lystmsg 17 
+final result:0:67:30:271:88:0
+1061.359208:lyrcmsg:'Hello 17 from the client' from Node 27
+final result:0:67:31:275:89:0
+final result:0:70:32:283:89:0
+final result:0:70:33:284:89:0
+1087.109662:Node31:lystmsg 18 
+1087.243285:lyrcmsg:'Hello 18 from the client' from Node 31
+1090.40193:Node27:lystmsg 18 
+1090.482459:lyrcmsg:'Hello 18 from the client' from Node 27
+1091.569649:Node30:lystmsg 18 
+1092.305366:lyrcmsg:'Hello 18 from the client' from Node 30
+1131.132368:lyrcmsg:'Hello 18 from the client' from Node 2
+1136.388401:Node11:lystmsg 18 
+1136.485572:lyrcmsg:'Hello 18 from the client' from Node 11
+1137.240406:Node5:lystmsg 18 
+1137.265781:lyrcmsg:'Hello 18 from the client' from Node 5
+final result:0:72:34:299:95:0
+final result:0:72:35:300:95:0
+1155.68579:Node5:lystmsg 19 
+1155.711121:lyrcmsg:'Hello 19 from the client' from Node 5
+1156.343087:Node30:lystmsg 19 
+1156.649239:lyrcmsg:'Hello 19 from the client' from Node 30
+1157.003493:Node27:lystmsg 19 
+1157.48308:lyrcmsg:'Hello 19 from the client' from Node 27
+1161.429988:Node31:lystmsg 19 
+1161.742118:lyrcmsg:'Hello 19 from the client' from Node 31
+1171.958713:Node11:lystmsg 19 
+1172.360511:lyrcmsg:'Hello 19 from the client' from Node 11
+1184.116806:lyrcmsg:'Hello 19 from the client' from Node 2
+1203.554024:Node30:lystmsg 20 
+1203.612471:lyrcmsg:'Hello 20 from the client' from Node 30
+1213.737868:Node27:lystmsg 20 
+1214.077939:lyrcmsg:'Hello 20 from the client' from Node 27
+1240.21059:lyrcmsg:'Hello 20 from the client' from Node 2
+1242.224781:Node5:lystmsg 20 
+1242.250122:lyrcmsg:'Hello 20 from the client' from Node 5
+1248.927463:Node11:lystmsg 20 
+1249.160392:lyrcmsg:'Hello 20 from the client' from Node 11
+1255.398724:Node31:lystmsg 20 
+1255.701034:lyrcmsg:'Hello 20 from the client' from Node 31
+1264.695613:Node31:lystmsg 21 
+1264.850551:lyrcmsg:'Hello 21 from the client' from Node 2
+1265.118342:lyrcmsg:'Hello 21 from the client' from Node 31
+1277.724352:Node11:lystmsg 21 
+1278.266367:lyrcmsg:'Hello 21 from the client' from Node 11
+1281.201344:Node5:lystmsg 21 
+1281.226879:lyrcmsg:'Hello 21 from the client' from Node 5
+1302.011305:Node27:lystmsg 21 
+1302.359908:lyrcmsg:'Hello 21 from the client' from Node 27
+1316.444649:Node30:lystmsg 21 
+1316.734305:lyrcmsg:'Hello 21 from the client' from Node 30
+1324.138844:Node5:lystmsg 22 
+1324.167314:lyrcmsg:'Hello 22 from the client' from Node 5
+1327.55818:Node27:lystmsg 22 
+1327.610813:lyrcmsg:'Hello 22 from the client' from Node 27
+1332.452752:lyrcmsg:'Hello 22 from the client' from Node 2
+1334.419651:Node11:lystmsg 22 
+1334.485756:lyrcmsg:'Hello 22 from the client' from Node 11
+1334.91435:Node31:lystmsg 22 
+1334.995767:lyrcmsg:'Hello 22 from the client' from Node 31
+1372.491524:Node30:lystmsg 22 
+1372.610933:lyrcmsg:'Hello 22 from the client' from Node 30
+1396.6331:Node31:lystmsg 23 
+1396.744501:lyrcmsg:'Hello 23 from the client' from Node 31
+1403.034757:Node27:lystmsg 23 
+1403.109508:lyrcmsg:'Hello 23 from the client' from Node 27
+1413.491824:lyrcmsg:'Hello 23 from the client' from Node 2
+1423.615407:Node5:lystmsg 23 
+1423.640752:lyrcmsg:'Hello 23 from the client' from Node 5
+1423.661838:Node11:lystmsg 23 
+1423.734356:lyrcmsg:'Hello 23 from the client' from Node 11
+1431.202476:Node30:lystmsg 23 
+1431.358094:lyrcmsg:'Hello 23 from the client' from Node 30
+1443.484662:Node31:lystmsg 24 
+1444.471285:lyrcmsg:'Hello 24 from the client' from Node 31
+1447.59204:lyrcmsg:'Hello 24 from the client' from Node 2
+1465.882149:Node30:lystmsg 24 
+1465.982895:lyrcmsg:'Hello 24 from the client' from Node 30
+1466.560719:Node5:lystmsg 24 
+1466.586059:lyrcmsg:'Hello 24 from the client' from Node 5
+1488.27693:Node27:lystmsg 24 
+1488.357504:lyrcmsg:'Hello 24 from the client' from Node 27
+1496.763401:Node11:lystmsg 24 
+1496.860733:lyrcmsg:'Hello 24 from the client' from Node 11
+1506.968665:lyrcmsg:'Hello 25 from the client' from Node 2
+1517.693532:Node5:lystmsg 25 
+1517.718968:lyrcmsg:'Hello 25 from the client' from Node 5
+1540.834934:Node11:lystmsg 25 
+1540.984104:lyrcmsg:'Hello 25 from the client' from Node 11
+1542.5706:Node31:lystmsg 25 
+1542.746777:lyrcmsg:'Hello 25 from the client' from Node 31
+1545.112869:Node27:lystmsg 25 
+1545.236055:lyrcmsg:'Hello 25 from the client' from Node 27
+1554.296226:Node30:lystmsg 25 
+1554.358618:lyrcmsg:'Hello 25 from the client' from Node 30
+1565.850899:Node30:lystmsg 26 
+1566.168183:lyrcmsg:'Hello 26 from the client' from Node 30
+1568.607152:Node11:lystmsg 26 
+1568.734189:lyrcmsg:'Hello 26 from the client' from Node 11
+1589.287283:Node5:lystmsg 26 
+1589.312788:lyrcmsg:'Hello 26 from the client' from Node 5
+1592.406539:Node31:lystmsg 26 
+1592.492525:lyrcmsg:'Hello 26 from the client' from Node 31
+1619.179343:lyrcmsg:'Hello 26 from the client' from Node 2
+1620.495696:Node27:lystmsg 26 
+1620.985633:lyrcmsg:'Hello 26 from the client' from Node 27
+1628.795096:Node5:lystmsg 27 
+1628.82044:lyrcmsg:'Hello 27 from the client' from Node 5
+1632.366525:Node30:lystmsg 27 
+1632.485556:lyrcmsg:'Hello 27 from the client' from Node 30
+1636.273058:lyrcmsg:'Hello 27 from the client' from Node 2
+1654.789351:Node31:lystmsg 27 
+1654.867118:lyrcmsg:'Hello 27 from the client' from Node 31
+1670.89412:Node27:lystmsg 27 
+1671.357984:lyrcmsg:'Hello 27 from the client' from Node 27
+1672.091541:Node11:lystmsg 27 
+1672.234467:lyrcmsg:'Hello 27 from the client' from Node 11
+1683.146672:Node5:lystmsg 28 
+1683.171994:lyrcmsg:'Hello 28 from the client' from Node 5
+1685.093087:Node30:lystmsg 28 
+1685.4856:lyrcmsg:'Hello 28 from the client' from Node 30
+1690.272423:Node11:lystmsg 28 
+1690.734188:lyrcmsg:'Hello 28 from the client' from Node 11
+1693.905863:lyrcmsg:'Hello 28 from the client' from Node 2
+1711.433196:Node27:lystmsg 28 
+1711.488206:lyrcmsg:'Hello 28 from the client' from Node 27
+1712.000289:Node31:lystmsg 28 
+1712.121565:lyrcmsg:'Hello 28 from the client' from Node 31
+1744.013846:Node5:lystmsg 29 
+1744.039019:lyrcmsg:'Hello 29 from the client' from Node 5
+1762.818104:Node11:lystmsg 29 
+1762.983414:lyrcmsg:'Hello 29 from the client' from Node 11
+1770.8668:lyrcmsg:'Hello 29 from the client' from Node 2
+final result:0:108:36:479:158:0
+final result:0:108:37:480:158:0
+1788.39412:Node27:lystmsg 29 
+1788.487697:lyrcmsg:'Hello 29 from the client' from Node 27
+1790.508101:Node31:lystmsg 29 
+1790.75715:Node30:lystmsg 29 
+1791.102214:lyrcmsg:'Hello 29 from the client' from Node 30
+1791.121286:lyrcmsg:'Hello 29 from the client' from Node 31
+1803.779028:Node11:lystmsg 30 
+1804.024233:lyrcmsg:'Hello 30 from the client' from Node 11
+1806.151934:Node27:lystmsg 30 
+1806.236097:lyrcmsg:'Hello 30 from the client' from Node 27
+1807.304026:Node30:lystmsg 30 
+1807.360815:lyrcmsg:'Hello 30 from the client' from Node 30
+1814.732597:Node5:lystmsg 30 
+1814.761063:lyrcmsg:'Hello 30 from the client' from Node 5
+1824.228063:lyrcmsg:'Hello 30 from the client' from Node 2
+final result:0:112:38:502:166:0
+final result:0:112:39:503:166:0
+1861.094069:Node31:lystmsg 30 
+1861.243893:lyrcmsg:'Hello 30 from the client' from Node 31
+1864.264963:Node30:lystmsg 31 
+1864.360698:lyrcmsg:'Hello 31 from the client' from Node 30
+1875.605058:Node27:lystmsg 31 
+1876.109719:lyrcmsg:'Hello 31 from the client' from Node 27
+final result:0:117:40:514:169:0
+final result:0:117:41:515:169:0
+1895.872779:Node11:lystmsg 31 
+1895.983615:lyrcmsg:'Hello 31 from the client' from Node 11
+1900.951347:Node5:lystmsg 31 
+1900.976834:lyrcmsg:'Hello 31 from the client' from Node 5
+1913.211227:Node31:lystmsg 31 
+1913.367802:lyrcmsg:'Hello 31 from the client' from Node 31
+1913.766768:lyrcmsg:'Hello 31 from the client' from Node 2
+1921.466515:Node11:lystmsg 32 
+1921.987713:lyrcmsg:'Hello 32 from the client' from Node 11
+final result:0:121:42:531:174:0
+final result:0:121:43:534:174:0
+1958.022791:Node30:lystmsg 32 
+1958.10821:lyrcmsg:'Hello 32 from the client' from Node 30
+1974.942204:Node27:lystmsg 32 
+1975.109873:lyrcmsg:'Hello 32 from the client' from Node 27
+1975.873222:Node5:lystmsg 32 
+1975.898556:lyrcmsg:'Hello 32 from the client' from Node 5
+1976.562172:lyrcmsg:'Hello 32 from the client' from Node 2
+1979.687804:Node31:lystmsg 32 
+1981.365882:lyrcmsg:'Hello 32 from the client' from Node 31
+final result:0:123:44:549:179:0
+final result:0:123:45:551:179:0
+1992.342922:Node5:lystmsg 33 
+1992.371359:lyrcmsg:'Hello 33 from the client' from Node 5
+1999.648096:lyrcmsg:'Hello 33 from the client' from Node 2
+2002.693091:Node11:lystmsg 33 
+2002.858617:lyrcmsg:'Hello 33 from the client' from Node 11
+2015.761308:Node27:lystmsg 33 
+2015.85807:lyrcmsg:'Hello 33 from the client' from Node 27
+2024.358759:Node30:lystmsg 33 
+2024.485757:lyrcmsg:'Hello 33 from the client' from Node 30
+final result:0:125:46:563:184:0
+final result:0:125:47:563:184:0
+2028.383102:Node31:lystmsg 33 
+2028.494533:lyrcmsg:'Hello 33 from the client' from Node 31
+2063.163401:Node30:lystmsg 34 
+2064.360815:lyrcmsg:'Hello 34 from the client' from Node 30
+2064.365409:Node5:lystmsg 34 
+2064.390744:lyrcmsg:'Hello 34 from the client' from Node 5
+2073.1754:Node27:lystmsg 34 
+2073.612093:lyrcmsg:'Hello 34 from the client' from Node 27
+2076.241768:lyrcmsg:'Hello 34 from the client' from Node 2
+2080.054991:Node31:lystmsg 34 
+2080.495638:lyrcmsg:'Hello 34 from the client' from Node 31
+2081.513404:Node11:lystmsg 34 
+2081.661847:lyrcmsg:'Hello 34 from the client' from Node 11
+final result:0:131:48:586:191:0
+final result:0:131:49:587:191:0
+2104.026933:Node27:lystmsg 35 
+2104.107195:lyrcmsg:'Hello 35 from the client' from Node 27
+2107.179025:Node30:lystmsg 35 
+2107.235391:lyrcmsg:'Hello 35 from the client' from Node 30
+2142.349796:Node5:lystmsg 35 
+2142.375137:lyrcmsg:'Hello 35 from the client' from Node 5
+2150.721978:lyrcmsg:'Hello 35 from the client' from Node 2
+2152.077547:Node31:lystmsg 35 
+2152.250308:lyrcmsg:'Hello 35 from the client' from Node 31
+2155.24779:Node11:lystmsg 35 
+2155.358901:lyrcmsg:'Hello 35 from the client' from Node 11
+2178.461225:Node31:lystmsg 36 
+2178.871875:lyrcmsg:'Hello 36 from the client' from Node 31
+2180.245681:Node27:lystmsg 36 
+2180.360026:lyrcmsg:'Hello 36 from the client' from Node 27
+2189.639963:Node30:lystmsg 36 
+2189.734719:lyrcmsg:'Hello 36 from the client' from Node 30
+2192.443533:Node5:lystmsg 36 
+2192.468871:lyrcmsg:'Hello 36 from the client' from Node 5
+2193.929325:lyrcmsg:'Hello 36 from the client' from Node 2
+2194.841526:Node11:lystmsg 36 
+2195.234189:lyrcmsg:'Hello 36 from the client' from Node 11
+2237.972244:Node27:lystmsg 37 
+2238.110401:lyrcmsg:'Hello 37 from the client' from Node 27
+2250.437081:lyrcmsg:'Hello 37 from the client' from Node 2
+2255.935277:Node11:lystmsg 37 
+2256.357295:lyrcmsg:'Hello 37 from the client' from Node 11
+2257.21697:Node5:lystmsg 37 
+2257.242315:lyrcmsg:'Hello 37 from the client' from Node 5
+2262.2581:Node31:lystmsg 37 
+2262.369419:lyrcmsg:'Hello 37 from the client' from Node 31
+2271.897776:Node30:lystmsg 37 
+2272.133547:lyrcmsg:'Hello 37 from the client' from Node 30
+2282.529027:Node11:lystmsg 38 
+2282.611088:lyrcmsg:'Hello 38 from the client' from Node 11
+2292.632398:lyrcmsg:'Hello 38 from the client' from Node 2
+2331.18572:Node5:lystmsg 38 
+2331.211056:lyrcmsg:'Hello 38 from the client' from Node 5
+2338.167571:Node27:lystmsg 38 
+2338.430425:lyrcmsg:'Hello 38 from the client' from Node 27
+2339.069665:Node30:lystmsg 38 
+2339.231667:lyrcmsg:'Hello 38 from the client' from Node 30
+2340.610626:Node31:lystmsg 38 
+2341.197668:lyrcmsg:'Hello 38 from the client' from Node 31
+2342.038401:Node30:lystmsg 39 
+2342.110722:lyrcmsg:'Hello 39 from the client' from Node 30
+2342.482595:Node5:lystmsg 39 
+2342.507962:lyrcmsg:'Hello 39 from the client' from Node 5
+2354.622777:Node11:lystmsg 39 
+2355.232664:lyrcmsg:'Hello 39 from the client' from Node 11
+2358.898726:Node31:lystmsg 39 
+2358.993954:lyrcmsg:'Hello 39 from the client' from Node 31
+2361.616844:lyrcmsg:'Hello 39 from the client' from Node 2
+2368.636306:Node27:lystmsg 39 
+2368.733178:lyrcmsg:'Hello 39 from the client' from Node 27
+2400.927893:Node5:lystmsg 40 
+2400.956376:lyrcmsg:'Hello 40 from the client' from Node 5
+2414.531537:Node31:lystmsg 40 
+2414.617553:lyrcmsg:'Hello 40 from the client' from Node 31
+2431.732165:Node11:lystmsg 40 
+2432.107954:lyrcmsg:'Hello 40 from the client' from Node 11
+2451.327476:Node30:lystmsg 40 
+2452.609258:lyrcmsg:'Hello 40 from the client' from Node 30
+2456.550368:Node27:lystmsg 40 
+2456.608486:lyrcmsg:'Hello 40 from the client' from Node 27
+2460.374624:lyrcmsg:'Hello 40 from the client' from Node 2
+2460.897405:Node11:lystmsg 41 
+2462.607568:lyrcmsg:'Hello 41 from the client' from Node 11
+2479.183181:Node27:lystmsg 41 
+2479.61058:lyrcmsg:'Hello 41 from the client' from Node 27
+2481.412282:Node5:lystmsg 41 
+2481.43762:lyrcmsg:'Hello 41 from the client' from Node 5
+2483.054025:Node30:lystmsg 41 
+2483.110912:lyrcmsg:'Hello 41 from the client' from Node 30
+2502.852792:lyrcmsg:'Hello 41 from the client' from Node 2
+2518.414364:Node31:lystmsg 41 
+2518.992701:lyrcmsg:'Hello 41 from the client' from Node 31
+2533.901931:Node27:lystmsg 42 
+2533.982475:lyrcmsg:'Hello 42 from the client' from Node 27
+2535.516675:lyrcmsg:'Hello 42 from the client' from Node 2
+2538.263401:Node11:lystmsg 42 
+2538.356641:lyrcmsg:'Hello 42 from the client' from Node 11
+2552.1331:Node31:lystmsg 42 
+2552.496265:lyrcmsg:'Hello 42 from the client' from Node 31
+2570.03157:Node30:lystmsg 42 
+2570.114326:lyrcmsg:'Hello 42 from the client' from Node 30
+2578.420108:Node5:lystmsg 42 
+2578.445431:lyrcmsg:'Hello 42 from the client' from Node 5
+2597.804989:Node31:lystmsg 43 
+2597.868134:lyrcmsg:'Hello 43 from the client' from Node 31
+2598.503493:Node27:lystmsg 43 
+2598.612477:lyrcmsg:'Hello 43 from the client' from Node 27
+2619.985421:lyrcmsg:'Hello 43 from the client' from Node 2
+2624.506047:Node5:lystmsg 43 
+2624.531466:lyrcmsg:'Hello 43 from the client' from Node 5
+2625.772776:Node30:lystmsg 43 
+2625.857711:lyrcmsg:'Hello 43 from the client' from Node 30
+2639.303673:Node11:lystmsg 43 
+2639.732414:lyrcmsg:'Hello 43 from the client' from Node 11
+2651.812789:Node31:lystmsg 44 
+2652.99454:lyrcmsg:'Hello 44 from the client' from Node 31
+2660.073868:Node27:lystmsg 44 
+2660.367988:lyrcmsg:'Hello 44 from the client' from Node 27
+2665.562092:lyrcmsg:'Hello 44 from the client' from Node 2
+2667.114965:Node11:lystmsg 44 
+2667.235724:lyrcmsg:'Hello 44 from the client' from Node 11
+2686.375303:Node30:lystmsg 44 
+2686.482936:lyrcmsg:'Hello 44 from the client' from Node 30
+2698.060735:Node5:lystmsg 44 
+2698.085894:lyrcmsg:'Hello 44 from the client' from Node 5
+2701.242444:Node31:lystmsg 45 
+2701.366568:lyrcmsg:'Hello 45 from the client' from Node 31
+2702.249672:lyrcmsg:'Hello 45 from the client' from Node 2
+2703.991526:Node30:lystmsg 45 
+2704.11033:lyrcmsg:'Hello 45 from the client' from Node 30
+2737.099783:Node5:lystmsg 45 
+2737.125221:lyrcmsg:'Hello 45 from the client' from Node 5
+final result:0:167:50:777:255:0
+2747.450917:Node11:lystmsg 45 
+2747.610881:lyrcmsg:'Hello 45 from the client' from Node 11
+2747.690995:Node27:lystmsg 45 
+2747.858214:lyrcmsg:'Hello 45 from the client' from Node 27
+final result:0:167:51:781:257:0
+2761.372763:Node11:lystmsg 46 
+2761.483444:lyrcmsg:'Hello 46 from the client' from Node 11
+2775.422927:lyrcmsg:'Hello 46 from the client' from Node 2
+final result:0:170:52:795:259:0
+final result:0:170:53:795:259:0
+2779.459172:Node5:lystmsg 46 
+2779.618906:lyrcmsg:'Hello 46 from the client' from Node 5
+2781.500303:Node31:lystmsg 46 
+2781.791319:lyrcmsg:'Hello 46 from the client' from Node 31
+2817.511321:Node27:lystmsg 46 
+2817.611401:lyrcmsg:'Hello 46 from the client' from Node 27
+2820.218103:Node30:lystmsg 46 
+2820.357781:lyrcmsg:'Hello 46 from the client' from Node 30
+2835.255604:Node11:lystmsg 47 
+2835.359917:lyrcmsg:'Hello 47 from the client' from Node 11
+2840.535953:Node27:lystmsg 47 
+2840.610785:lyrcmsg:'Hello 47 from the client' from Node 27
+2842.117476:Node31:lystmsg 47 
+2842.620083:lyrcmsg:'Hello 47 from the client' from Node 31
+2853.710276:Node30:lystmsg 47 
+2853.859487:lyrcmsg:'Hello 47 from the client' from Node 30
+2861.116806:lyrcmsg:'Hello 47 from the client' from Node 2
+final result:0:175:54:822:268:0
+final result:0:175:55:822:268:0
+2868.295096:Node5:lystmsg 47 
+2868.320561:lyrcmsg:'Hello 47 from the client' from Node 5
+final result:0:176:56:826:269:0
+final result:0:176:57:827:269:0
+2887.086226:Node31:lystmsg 48 
+2887.242855:lyrcmsg:'Hello 48 from the client' from Node 31
+2906.193516:lyrcmsg:'Hello 48 from the client' from Node 2
+2915.776946:Node27:lystmsg 48 
+2915.857539:lyrcmsg:'Hello 48 from the client' from Node 27
+2919.561839:Node30:lystmsg 48 
+2919.737213:lyrcmsg:'Hello 48 from the client' from Node 30
+2930.967935:Node5:lystmsg 48 
+2930.993351:lyrcmsg:'Hello 48 from the client' from Node 5
+2932.974354:Node11:lystmsg 48 
+2933.107662:lyrcmsg:'Hello 48 from the client' from Node 11
+2942.474783:Node5:lystmsg 49 
+2942.500127:lyrcmsg:'Hello 49 from the client' from Node 5
+2958.545228:lyrcmsg:'Hello 49 from the client' from Node 2
+2963.995697:Node27:lystmsg 49 
+2964.109873:lyrcmsg:'Hello 49 from the client' from Node 27
+2982.616193:Node11:lystmsg 49 
+2982.733275:lyrcmsg:'Hello 49 from the client' from Node 11
+2997.734664:Node31:lystmsg 49 
+2998.11267:lyrcmsg:'Hello 49 from the client' from Node 31
+2998.929026:Node30:lystmsg 49 
+2998.985478:lyrcmsg:'Hello 49 from the client' from Node 30
+3018.722246:Node27:lystmsg 50 
+3019.110402:lyrcmsg:'Hello 50 from the client' from Node 27
+final result:0:184:58:863:282:0
+final result:0:184:59:864:282:0
+3037.773099:lyrcmsg:'Hello 50 from the client' from Node 2
+3038.654028:Node11:lystmsg 50 
+3038.732564:lyrcmsg:'Hello 50 from the client' from Node 11
+3047.834173:Node5:lystmsg 50 
+3047.861211:lyrcmsg:'Hello 50 from the client' from Node 5
+3050.579379:Node31:lystmsg 50 
+3050.745678:lyrcmsg:'Hello 50 from the client' from Node 31
+3052.405604:Node30:lystmsg 50 
+3052.484191:lyrcmsg:'Hello 50 from the client' from Node 30
+3061.677896:Node5:lystmsg 51 
+3061.703286:lyrcmsg:'Hello 51 from the client' from Node 5
+3062.386308:Node27:lystmsg 51 
+3062.483298:lyrcmsg:'Hello 51 from the client' from Node 27
+3066.992477:Node31:lystmsg 51 
+3067.11665:lyrcmsg:'Hello 51 from the client' from Node 31
+3074.083716:Node11:lystmsg 51 
+3074.233166:lyrcmsg:'Hello 51 from the client' from Node 11
+3080.369992:lyrcmsg:'Hello 51 from the client' from Node 2
+final result:0:190:60:890:292:0
+final result:0:190:61:890:292:0
+3111.647777:Node30:lystmsg 51 
+3111.73257:lyrcmsg:'Hello 51 from the client' from Node 30
+3122.170097:Node5:lystmsg 52 
+3122.198564:lyrcmsg:'Hello 52 from the client' from Node 5
+3128.65654:Node31:lystmsg 52 
+3128.742618:lyrcmsg:'Hello 52 from the client' from Node 31
+3136.460647:lyrcmsg:'Hello 52 from the client' from Node 2
+3151.300371:Node27:lystmsg 52 
+3151.358754:lyrcmsg:'Hello 52 from the client' from Node 27
+3151.788413:Node30:lystmsg 52 
+3151.8638:lyrcmsg:'Hello 52 from the client' from Node 30
+3154.857164:Node11:lystmsg 52 
+3154.984164:lyrcmsg:'Hello 52 from the client' from Node 11
+final result:0:194:62:910:299:0
+final result:0:194:63:911:299:0
+3215.388845:Node5:lystmsg 53 
+3215.414212:lyrcmsg:'Hello 53 from the client' from Node 5
+3228.34154:Node11:lystmsg 53 
+3229.166325:lyrcmsg:'Hello 53 from the client' from Node 11
+3230.910965:Node27:lystmsg 53 
+3230.985372:lyrcmsg:'Hello 53 from the client' from Node 27
+3231.936838:Node30:lystmsg 53 
+3232.108423:lyrcmsg:'Hello 53 from the client' from Node 30
+3236.250288:Node31:lystmsg 53 
+3236.368159:lyrcmsg:'Hello 53 from the client' from Node 31
+3239.570024:lyrcmsg:'Hello 53 from the client' from Node 2
+3242.25715:Node30:lystmsg 54 
+3242.357869:lyrcmsg:'Hello 54 from the client' from Node 30
+3242.913644:lyrcmsg:'Hello 54 from the client' from Node 2
+3257.865407:Node5:lystmsg 54 
+3257.893876:lyrcmsg:'Hello 54 from the client' from Node 5
+3264.429975:Node31:lystmsg 54 
+3264.493073:lyrcmsg:'Hello 54 from the client' from Node 31
+3265.823807:Node27:lystmsg 54 
+3266.46191:lyrcmsg:'Hello 54 from the client' from Node 27
+3288.029027:Node11:lystmsg 54 
+3288.110938:lyrcmsg:'Hello 54 from the client' from Node 11
+3315.581619:Node27:lystmsg 55 
+3316.735421:lyrcmsg:'Hello 55 from the client' from Node 27
+3317.148075:lyrcmsg:'Hello 55 from the client' from Node 2
+3317.344052:Node31:lystmsg 55 
+3318.242855:lyrcmsg:'Hello 55 from the client' from Node 31
+3338.781535:Node30:lystmsg 55 
+3338.860843:lyrcmsg:'Hello 55 from the client' from Node 30
+3352.209157:Node5:lystmsg 55 
+3352.236249:lyrcmsg:'Hello 55 from the client' from Node 5
+3354.958714:Node11:lystmsg 55 
+3355.108167:lyrcmsg:'Hello 55 from the client' from Node 11
+3361.74185:lyrcmsg:'Hello 56 from the client' from Node 2
+3368.031537:Node31:lystmsg 56 
+3368.117639:lyrcmsg:'Hello 56 from the client' from Node 31
+3372.2259:Node30:lystmsg 56 
+3372.359344:lyrcmsg:'Hello 56 from the client' from Node 30
+3399.27947:Node5:lystmsg 56 
+3399.304806:lyrcmsg:'Hello 56 from the client' from Node 5
+3407.261321:Node27:lystmsg 56 
+3407.602488:lyrcmsg:'Hello 56 from the client' from Node 27
+3412.122791:Node11:lystmsg 56 
+3412.233385:lyrcmsg:'Hello 56 from the client' from Node 11
+3423.124337:Node30:lystmsg 57 
+3423.235636:lyrcmsg:'Hello 57 from the client' from Node 30
+3425.91435:Node31:lystmsg 57 
+3425.992166:lyrcmsg:'Hello 57 from the client' from Node 31
+3426.249167:Node5:lystmsg 57 
+3426.274512:lyrcmsg:'Hello 57 from the client' from Node 5
+3459.269133:Node27:lystmsg 57 
+3459.734808:lyrcmsg:'Hello 57 from the client' from Node 27
+3467.935277:Node11:lystmsg 57 
+3468.48348:lyrcmsg:'Hello 57 from the client' from Node 11
+3471.835585:lyrcmsg:'Hello 57 from the client' from Node 2
+3487.6331:Node31:lystmsg 58 
+3487.744501:lyrcmsg:'Hello 58 from the client' from Node 31
+3488.397421:Node11:lystmsg 58 
+3488.735453:lyrcmsg:'Hello 58 from the client' from Node 11
+3489.858712:Node30:lystmsg 58 
+3489.985821:lyrcmsg:'Hello 58 from the client' from Node 30
+3492.045094:Node5:lystmsg 58 
+3492.070461:lyrcmsg:'Hello 58 from the client' from Node 5
+final result:0:210:63:1008:333:0
+state 1
+3501.362869:Node27:lystmsg 58 
+3501.485478:lyrcmsg:'Hello 58 from the client' from Node 27
+3534.218621:lyrcmsg:'Hello 58 from the client' from Node 2
+3549.943089:Node11:lystmsg 59 
+3550.108782:lyrcmsg:'Hello 59 from the client' from Node 11
+3551.745682:Node27:lystmsg 59 
+3552.235571:lyrcmsg:'Hello 59 from the client' from Node 27
+3566.48561:Node31:lystmsg 59 
+3566.619342:lyrcmsg:'Hello 59 from the client' from Node 31
+3577.396672:Node5:lystmsg 59 
+3577.421831:lyrcmsg:'Hello 59 from the client' from Node 5
+3589.94495:lyrcmsg:'Hello 59 from the client' from Node 2
+3592.968174:Node30:lystmsg 59 
+3593.349663:lyrcmsg:'Hello 59 from the client' from Node 30
+TEST TIMEOUT
+TEST FAILED
+Test ended at simulation time: 3600000000

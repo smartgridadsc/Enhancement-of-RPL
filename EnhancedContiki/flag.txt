@@ -1,0 +1,13 @@
+
+core/net/rpl/rpl-ext-header.c:99:  if(UIP_EXT_HDR_OPT_RPL_BUF->flags & RPL_HDR_OPT_FWD_ERR) {
+core/net/rpl/rpl-ext-header.c:122:  if(UIP_EXT_HDR_OPT_RPL_BUF->flags & RPL_HDR_OPT_DOWN) {
+core/net/rpl/rpl-ext-header.c:139:    if(UIP_EXT_HDR_OPT_RPL_BUF->flags & RPL_HDR_OPT_RANK_ERR) {
+core/net/rpl/rpl-ext-header.c:151:    UIP_EXT_HDR_OPT_RPL_BUF->flags |= RPL_HDR_OPT_RANK_ERR;
+core/net/rpl/rpl-ext-header.c:172:  UIP_EXT_HDR_OPT_RPL_BUF->flags = 0;
+core/net/rpl/rpl-ext-header.c:243:    if((UIP_EXT_HDR_OPT_RPL_BUF->flags & RPL_HDR_OPT_DOWN)) {
+core/net/rpl/rpl-ext-header.c:245:        UIP_EXT_HDR_OPT_RPL_BUF->flags |= RPL_HDR_OPT_FWD_ERR;
+core/net/rpl/rpl-ext-header.c:264:        UIP_EXT_HDR_OPT_RPL_BUF->flags &= ~RPL_HDR_OPT_DOWN;
+core/net/rpl/rpl-ext-header.c:268:        UIP_EXT_HDR_OPT_RPL_BUF->flags |= RPL_HDR_OPT_DOWN;
+core/net/rpl/rpl-ext-header.c:309:          UIP_EXT_HDR_OPT_RPL_BUF->flags = RPL_HDR_OPT_DOWN;
+core/net/rpl/rpl-ext-header.c:368:    UIP_EXT_HDR_OPT_RPL_BUF->flags &= RPL_HDR_OPT_DOWN;
+core/net/rpl/rpl-ext-header.c:369:    UIP_EXT_HDR_OPT_RPL_BUF->flags ^= RPL_HDR_OPT_DOWN;
