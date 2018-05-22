@@ -1,0 +1,129 @@
+
+####1 File Name:/core/net/ip/uip.h####
+at line 116 add tree variable to control attacking workflow:
+/*-----------ADSC add----------------------*/
+int isMali;
+int isAtAttackingStep;
+long startClock;
+
+####2 File Name:/core/net/rpl/rpl-dag.c####
+there are multiple changes in this file, modified functions are:(all changed code start with "ADSC add" comments)
+rpl_set_preferred_parent(rpl_dag_t *dag, rpl_parent_t *p)
+rpl_process_dio(uip_ipaddr_t *from, rpl_dio_t *dio)
+
+####3 File Name:/core/net/rpl/rpl-ext-header.c####
+rpl_verify_header(int uip_ext_opt_offset)(changed code start with "ADSC add" comments)
+ 
+####4 File Name:/core/net/rpl/rpl-icmp6.c#### 
+dao_input(void) (changed code start with "ADSC add" comments)
+
+####5 File Name:/core/net/rpl/rpl-mrhof.c#### 
+best_parent(rpl_parent_t *p1, rpl_parent_t *p2) (changed code start with "ADSC add" comments)
+
+####6 File Name:/core/net/rpl/rpl-private.h#### 
+/* timer for cm1*/
+#if cm1
+void set_parent_dio_timer(rpl_instance_t *);
+#endif
+/* timer for cm2*/
+#if cm2
+void set_detect_loop_timer(rpl_instance_t *);
+#endif
+
+####7 File Name:/core/net/rpl/rpl-timers.c#### 
+there are 4 parts changed:(all changed code start with "ADSC add" comments)
+1.#if cm2
+ #include "net/netstack.h"
+ #endif
+2. #if cm2
+ static void handle_loop_detection_timer(void *ptr);
+ static void handle_sleep_timer(void *ptr);
+ #endif
+3. add a function for cm1:static void handle_dis_sent_timer(void *ptr)
+   add a function for cm1:static void handle_parent_dio_timer(void *ptr)
+   add a function for cm1: void set_parent_dio_timer(rpl_instance_t *ptr)
+4.
+   add a function for cm2:void set_detect_loop_timer(rpl_instance_t *ptr)
+   add a function for cm2:static void handle_loop_detection_timer(void *ptr)
+   add a function for cm2:static void handle_sleep_timer(void *ptr)
+
+####8 File Name:/core/net/rpl/rpl.h#### 
+there are 2 parts changed:(all changed code start with "ADSC add" comments)
+1.
+/* define constants for countermeasure 1*/
+ #define cm1 0
+ #define PARENT_DIO_WAIT 600 /* seconde */
+ 	
+ /* define constants for countermeasure 2*/
+ #define cm2 1
+ #define cm2ETXThreshold 1280
+ #define cm2WaitDAOTime 10 /* seconde */
+ #define cm2SleepTime 1800 /* seconde */
+ #define cm2DAOLimit 1
+ #define cm2LoopTolerate 3
+2. 
+#if cm1
+	  struct ctimer parent_dio_timer;
+	  struct ctimer dis_sent_timer;
+	  int uni_dis_sent;
+	  int receive_dio;
+#endif
+#if cm2
+	  struct ctimer loop_detection_timer;
+	  struct ctimer sleep_timer;
+	  int cm2_DAO_counter;
+	  int cm2_loop_detection_flag;
+	  int cm2_loop_counter;
+#endif
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
